@@ -1,38 +1,38 @@
-# 🤖 chatbot-flotante
+# 🧠 mi-chatbot-personal
 
-Un chatbot modular y flotante desarrollado en **Node.js**, diseñado para integrarse fácilmente en cualquier sitio web mediante un ícono fijo tipo “burbuja”.  
-Este proyecto refleja un enfoque técnico propio, adaptable y pensado para escalar de forma independiente. Está enfocado en la reutilización personal, demostración profesional, y exploración con IA abierta.
+Bot funcional y auto-hospedado en Vercel, con datos propios en backend. Ideal para explorar respuestas personalizadas, lógica contextual desacoplada y despliegue real en producción.
 
-## 🎯 Propósito
+Este repositorio consolida:
+- ✅ Un bot 100% operativo, listo para recibir consultas externas
+- 🧩 Backend con datos personalizados, accesibles y organizados
+- 🔗 Conectividad para frontend embebido en futuras etapas
+- 📘 Base sólida para evolucionar hacia arquitectura modular
 
-Este chatbot está pensado como:
-- Una herramienta reutilizable para mis futuros proyectos
-- Una muestra técnica para reclutadores y desarrolladores
-- Un experimento modular para explorar IA open-source
+## 🚀 ¿Qué hace este bot?
 
-## 🧰 Tecnologías utilizadas
+- Responde con contexto basado en datos reales
+- Tiene fallback si no encuentra información
+- Está pensado para escalar a soluciones más complejas
+- Es replicable y fácil de portar a otros entornos
 
-- **Node.js**: motor principal del backend
-- **Express**: servidor HTTP ligero y personalizable
-- **dotenv**: manejo de variables de entorno sin exponer credenciales
-- **node-fetch**: conexión a modelos de IA vía API externa
-- **OpenRouter**: servicio que permite usar modelos como Mistral (gratuito y en español)
-- **HTML/CSS**: diseño visual del widget flotante e integración
+## 📁 Estructura actual (simplificada)
 
-> Este chatbot se ejecuta localmente mediante Node.js, y se conecta a modelos de IA externos como Mistral a través de OpenRouter. En el futuro puede adaptarse a instancias auto-hospedadas o modelos locales sin alterar su estructura principal.
+```bash
+mi-chatbot-personal/
+├── datos/        # datos personales estructurados
+├── api/         # endpoints de respuesta e inferencia
+├── public/      # assets y rutas compartibles
+└── README.md    # este archivo 😎
+```
 
-## ⚙️ Arquitectura general
+## 💬 ¿Querés saber más sobre mi?
 
-chatbot-flotante/
-├── server/
-│   └── server.js               # Lógica del backend y API
-├── public/
-│   └── widget.html             # Burbuja flotante para integrar en cualquier sitio
-├── config/
-│   └── env.example             # Variables de entorno de ejemplo
-├── LICENSE                     # Licencia MIT - Mauricio Belforte
-├── README.md                   # Documentación del proyecto
-└── package.json                # Metadata y dependencias
+Preguntale al bot. Está hecho para eso.  
+_Él tiene las respuestas. Y los datos. Si querés conocerme, charlá con él._
+
+---
+
+
 
 ## 📄 Licencia
 

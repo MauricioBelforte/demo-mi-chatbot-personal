@@ -1,0 +1,33 @@
+# .gitignore para Node.js
+# Dependencias
+/node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios temporales
+/tmp/
+/temp/
+
+# Builds
+/dist/
+/build/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración personales
+*.swp
+.vscode/
+.idea/
+

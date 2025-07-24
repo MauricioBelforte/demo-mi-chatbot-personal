@@ -1,0 +1,11 @@
+{
+  "nombre": "se llama Mauricio Belforte",
+  "edad": "tiene 36 años",
+  "ubicacion": "actualmente vive en Trelew, Chubut, Argentina",
+  "profesion": "se desempeña como Desarrollador Web Front-End, y actualmente se esta capacitando para ser Full-Stack",
+  "descripcion": "es un excelente Desarrollador web Freelance, enfocado en tecnologías frontend. Le gusta crear sitios web funcionales y bien diseñados, con especial interés en JavaScript y Node.js.",
+  "tecnologias": ["HTML", "CSS", "JavaScript","Bootstrap", "Node.js", "Express", "Vercel","Git", "GitHub", "Firebase", "EJS" ,"JSON"],
+  "email": "mauriciobelforte@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/mauriciobelforte/",
+  "github": "https://github.com/MauricioBelforte/"
+}

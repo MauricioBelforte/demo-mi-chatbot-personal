@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-flotante",
+  "version": "1.0.0",
+  "author": "Mauricio Belforte",
+  "license": "MIT",
+  "description": "Chatbot flotante modular en Node.js con integración vía OpenRouter, orientado a uso técnico y reutilización personal",
+  "type": "module",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "flotante",
+    "nodejs",
+    "express",
+    "modular",
+    "portfolio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauricioBelforte/chatbot-flotante.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
