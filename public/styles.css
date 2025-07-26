@@ -8,7 +8,8 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #dac6f2;
+  background: #3f3d56;
+  padding: 5px;
   /* color: white; */
   border: none;
   border-radius: 50%;
@@ -18,7 +19,7 @@
   cursor: pointer;
   z-index: 999;
   transition: all ease-in-out 2s;
-  
+
 }
 
 .chat-icon img {
@@ -218,7 +219,7 @@
   border: 2px solid rgba(0, 123, 255, 0.4);
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(1);
-  animation: pulse 1.2s ease-out 1s 3;
+  animation: pulse 1.2s ease-out 1s 30;
   opacity: 0;
   pointer-events: none;
 }
@@ -241,13 +242,13 @@
 /* Animaciones al hover */
 .chat-icon:hover::before {
   /* "PULSO" */
-  animation: pulse 1.2s ease-out 50 forwards;
+  animation: pulse 1.2s ease-out 80 forwards;
 }
 
 .chat-icon:hover::after {
   /* "💬" */
   transition: all ease-in-out 2s;
-  animation: float-up 1s ease-in-out 3 forwards;
+  animation: float-up 1s ease-in-out 10 forwards;
 
 }
 
