@@ -1,5 +1,3 @@
-
-```markdown
 # 🧠 mi-chatbot-personal
 
 Bot funcional y auto-hospedado en Vercel, con datos propios en backend. Ideal para explorar respuestas personalizadas, lógica contextual desacoplada y despliegue real en producción.
@@ -129,6 +127,4 @@ Si querés conocerme, charlá con él 😉
 Este proyecto está bajo la licencia MIT. Podés usarlo, modificarlo y distribuirlo libremente.  
 Consultá el archivo `LICENSE` para ver el texto completo.
 ```
-
----
 
