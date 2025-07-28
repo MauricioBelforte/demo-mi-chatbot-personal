@@ -1,6 +1,6 @@
-# 🧠 mi-chatbot-personal
+# 💬 demo-mi-chatbot-personal
 
-Bot funcional y auto-hospedado en Vercel, con datos propios en backend. Ideal para explorar respuestas personalizadas, lógica contextual desacoplada y despliegue real en producción.
+Bot funcional y auto-hospedado en Vercel, con datos propios en backend. Ideal para explorar respuestas personalizadas, lógica contextual desacoplada y despliegue real en producción. Funciona de forma local con Express.
 
 ---
 
@@ -119,6 +119,10 @@ GROQ_API_KEY=xxx...
 Preguntale al bot. Está hecho para eso.  
 Él tiene las respuestas. Y los datos.  
 Si querés conocerme, charlá con él 😉
+
+---
+
+> ℹ️ Este repositorio fue renombrado como `demo-mi-chatbot-personal` para reflejar su rol como demo funcional dentro del ecosistema IA modular.
 
 ---
 
