@@ -1,6 +1,8 @@
 # 💬 demo-mi-chatbot-personal
 
-Bot funcional y auto-hospedado en Vercel, con datos propios en backend. Ideal para explorar respuestas personalizadas, lógica contextual desacoplada y despliegue real en producción. Funciona de forma local con Express.
+Bot funcional y auto-hospedado en Vercel, con datos propios en backend. Ideal para explorar respuestas personalizadas, lógica contextual desacoplada y despliegue real en producción. 
+- En local: busca en la carpeta `server/` y levanta un servidor Express en `localhost`.
+- En producción: Vercel detecta las carpetas `public/` y `api/`, creando automáticamente la ruta `/api/chatbotApi` desde el archivo `chatbotApi.js`.
 
 ---
 
